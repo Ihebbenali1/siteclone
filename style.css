@@ -7,7 +7,9 @@ nav {
     display: flex;
     flex-direction: row;
 }
-  
+  .is-current {
+    color:#00b39b;
+  }
   .dropdown {
     position: relative;
     display: inline-block;
@@ -23,7 +25,7 @@ nav {
   }
   
   .dropdown-content a {
-    color: black;
+    color: #ababab;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -43,6 +45,9 @@ nav {
     text-decoration: none;
     color: #ababab;
   }
+  a:hover{
+    color: #00b39b;
+  }
   
   .section__inner{
     display: flex;
@@ -54,3 +59,153 @@ nav {
     justify-content: space-around;
     width: 17%;
   }
+  header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9)}
+    
+    .middleicon img{
+      margin-left: 704px;
+      padding-top: 25px;
+      width: 45px;
+    }
+    .upperslogan h2{
+      display: flex;
+      justify-content: center;
+      font-family: Work Sans,Arial,sans-serif;
+      font-weight: 300;
+      letter-spacing: 8.7px;
+      color: #00b39b;
+    }
+    .description{
+      display: flex;
+      justify-content: space-around;
+      margin-right: -114px;
+padding-top: 18px;
+color:#747474;
+    }
+    .rightpar{
+      padding-right: 30px;
+      margin-right: 170px;
+      width: 500px;
+    }
+    .leftpar{
+        margin-left: 60px;
+        width: 500px;
+    }
+    .cards{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 80px;
+      margin-left: 218px;
+      margin-right: 220px;
+      align-items: center;
+      font-family: Work Sans,Arial,sans-serif;
+      letter-spacing: .3px;
+      
+      
+    }
+    .patients {
+      background-color: #00ccb1;
+      color: #fff;
+      width: 250px;
+      height: 350px;
+      border-radius: 24px;
+      padding-top: 20px;
+    }
+    .doctors{
+      background-color: #3d83df;
+      color: #fff;
+      width: 250px;
+      height: 350px;
+      border-radius: 24px;
+      padding-top: 20px;
+    }
+    .clinics{
+      background-color: #1b2734;
+      color: #fff;
+      width: 250px;
+      height: 350px;
+      border-radius: 24px;
+      padding-top: 20px;
+    }
+    .pub{
+      display:flex;
+      justify-content: space-around;
+            
+    }
+    .leftslogan{
+      color: #00b39b;
+      font-family: Work Sans,Arial,sans-serif;
+      font-weight: 300;
+      letter-spacing: -.3px;
+      margin-left: 288px;
+      margin-top: 30px;
+    }
+    .rightlogos{
+      padding-top: 37px;
+      padding-left: 130px;
+    }
+    .gipo{
+      width: 50px;
+    }
+    .mid{
+      background-color: #00ccb1;
+      display:flex;
+      justify-content: space-around  ;
+    }
+    .slog{
+      padding-top: 20px;
+    }
+    .slog h3{
+      display: flex;
+      width: 314px;
+      margin-left: 25px;
+      margin-top: 82px;
+    }
+    .slog h1{
+      margin-left: 18px;
+      width: 300px;
+    }
+    .slogan3 {
+      display:inline-block;
+      
+      color: #00b39b;
+      font-style: italic;
+      width: 505px;
+      margin-left: 490px;
+      padding-top: 25px;
+      font-family: Work Sans,Arial,sans-serif;
+      font-weight: 300;
+      letter-spacing: -.3px;
+    }
+    .slogan3 p {
+      color:#747474;
+    }
+
+    /* .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: #ababab;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    } */
