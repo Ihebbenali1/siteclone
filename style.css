@@ -1,3 +1,7 @@
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
 .section__inner img{
     width: 268px;
     height: 33px;
@@ -178,11 +182,20 @@ color:#747474;
       font-family: Work Sans,Arial,sans-serif;
       font-weight: 300;
       letter-spacing: -.3px;
+      margin-left: 531px;
     }
     .slogan3 p {
       color:#747474;
     }
 
+    .images{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .images img{
+      width: 420px;
+    }
     /* .dropdown {
       position: relative;
       display: inline-block;
