@@ -196,6 +196,26 @@ color:#747474;
     .images img{
       width: 420px;
     }
+    .lowerslogan h2{
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 10px;
+      padding-top: 10px;
+
+    }
+    .lowerslogan button {
+      display: flex;
+      justify-content: center;
+      margin-left: 228px;
+      background: #1662c6;
+      width: 227px;
+      border-radius:5px;
+      color:#fff;
+       }
+       footer p{
+        margin-left: 180px;
+       }
+       
+    
     /* .dropdown {
       position: relative;
       display: inline-block;
